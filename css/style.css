@@ -10,3 +10,20 @@
     --font-raleway: "Raleway", sans-serif;
     --font-open-sans: "Open Sans", sans-serif;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-open-sans);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1352px;
+    margin: 0 auto;
+}
