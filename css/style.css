@@ -446,22 +446,22 @@ a {
     margin-bottom: 30px;
 }
 
-.pricing__box--professional {
+.pricing__box-professional {
     --accent-color: var(--color-primary);
     width: 400px;
     margin: 0 40px;
     box-shadow: 5px 1px 27px var(--color-primary-shadow);
 }
 
-.pricing__box--professional .pricing__type {
+.pricing__box-professional .pricing__type {
     font-size: 1.3125rem;
 }
 
-.pricing__box--professional .pricing__item {
+.pricing__box-professional .pricing__item {
     margin-bottom: 25px;
 }
 
-.pricing__box--premium {
+.pricing__box-premium {
     --accent-color: var(--color-green);
 }
 
