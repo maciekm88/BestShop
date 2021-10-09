@@ -995,4 +995,67 @@ h2 {
 .pricing__item--not::before {
   background-image: url("../assets/Close.svg");
 }
+
+.contact {
+  padding: 80px 100px 100px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 1024px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 15px;
+  }
+}
+.contact__column {
+  width: 50%;
+}
+@media (max-width: 1024px) {
+  .contact__column {
+    width: 100%;
+  }
+}
+.contact__title {
+  font-size: 3.0625rem;
+  line-height: 3.6875rem;
+}
+.contact__instruction {
+  margin: 22px 0 42px;
+  font-size: 1rem;
+  line-height: 1.375rem;
+}
+@media (max-width: 1024px) {
+  .contact__instruction {
+    margin: 5px 0 35px;
+  }
+}
+.contact__details {
+  display: flex;
+  justify-content: flex-start;
+  color: #A5A5A5;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  .contact__details {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+.contact__details .details__item {
+  color: #A5A5A5;
+  font-weight: 500;
+  text-decoration: none;
+}
+@media (max-width: 1024px) {
+  .contact__details .details__item {
+    margin-bottom: 10px;
+  }
+}
+.contact__details .details__item:first-of-type {
+  margin-right: 20px;
+}
+.contact__details .details__item img {
+  margin-right: 10px;
+}
 /*# sourceMappingURL=main.css.map */
